@@ -1,218 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Up!</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Light Up!</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/med-view.css" />
+    <link rel="stylesheet" href="css/lg-view.css" />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/med-view.css">
-  <link rel="stylesheet" href="css/lg-view.css">
+    <!-- Fonts and icons -->
+    <script
+      src="https://kit.fontawesome.com/5dd921e2fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- Fonts and icons -->
-  <script src="https://kit.fontawesome.com/5dd921e2fb.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300" rel="stylesheet">
-</head>
-
-<body>
-  <div class="container">
-
-    <!-- Header -->
-    <div id="head" class="header">
-      <div class="brand-box">
-        <h1>Light Up!</h1>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div id="head" class="header">
+        <div class="brand-box">
+          <h1>Light Up!</h1>
+        </div>
       </div>
-    </div>
 
-    <!-- Navbar -->
-    <div class="navbar ">
-      <div class="nav-items">
-        <h4><a href="index.html">HOME</a></h4>
-      </div>|
-      <div class="nav-items">
-        <h4><a href="#">ENGAGE</a></h4>
-      </div>|
-      <div class="nav-items">
-        <h4><a href="#">NEWSLETTER</a></h4>
+      <!-- Navbar -->
+      <div class="navbar">
+        <div class="nav-items">
+          <h4><a href="index.html">HOME</a></h4>
+        </div>
+        |
+        <div class="nav-items">
+          <h4><a href="#">ENGAGE</a></h4>
+        </div>
+        |
+        <div class="nav-items">
+          <h4><a href="#">NEWSLETTER</a></h4>
+        </div>
       </div>
-    </div>
-    
-    <!-- Featured post -->
-    <div class="featured">
-      <div class="feat-text">
-        <div class="feat-image"><img src="images/river.jpg"></div>
-       
+
+      <!-- Featured post -->
+      <div class="featured">
+        <div class="feat-text">
+          <div class="feat-image"><img src="images/river.jpg" /></div>
+
           <h4>Feautered article</h4>
-        <h3>Rivers and our planet</h3>
-      
-      <h5 id="author">By Sam Fischer</h5>
-        <p>Lorem ipsum dolor
-        sit amet: <q>consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. </q><br>Duis aute irure dolor in reprehenderit in voluptate velit
-          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-          id est laborum.
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam tempor orci 
-           eu lobortis elementum nibh. Leo integer malesuada nunc vel risus commodo
-        </p>
-        <a href="blog-post.html">Find out more ...</a>
-      </div>
-    </div>
+          <h3>Rivers and our planet</h3>
 
-
-
-    <!-- Blog post cards -->
-    <div class="post">
-      <div class="post-1 card">
-        <img class="post-image" alt="Japanese Umbrellas" src="images/umbrellas.jpg">
-        <h2>Japanese Umbrellas</h2>
-        <h5 id="author">By Lisa Bright</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-           incididunt ut labore et dolore magna aliqua. Etiam tempor orci eu lobortis elementum nibh.
-           Leo integer malesuada nunc vel risus commodo
-        </p>
-        <a href="blog-post.html">Read more ...</a>
+          <h5 id="author">By Sam Fischer</h5>
+          <p>
+            Lorem ipsum dolor sit amet:
+            <q
+              >consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. </q
+            ><br />Duis aute irure <u>dolor in reprehenderit</u> in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum. do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Etiam tempor orci eu lobortis elementum
+            nibh. Leo integer malesuada nunc vel risus commodo
+          </p>
+          <a href="blog-post.html">Find out more ...</a>
+        </div>
       </div>
 
-      <div class="post-2 card">
-        <img class="post-image" alt="Acropolis" src="images/acropolis.jpg">
-        <h2>Acropolis</h2>
-        <h5 id="author">By Jay Clarck</h5>
-        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam tempor orci eu 
-          lobortis elementum nibh. Leo integer malesuada nunc vel risus commodo
-        </p>
-        <a href="#">Read more ...</a>
-      </div>
-
-      <div class="post-3 card">
-        <img class="post-image" alt="The bird!" src="images/bird.jpg">
-        <h2>The bird!</h2>
-        <h5 id="author">By Angela Jones</h5>
-        <p>consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam tempor orci 
-           eu lobortis elementum nibh. Leo integer malesuada nunc vel risus commodo
-        </p>
-        <a href="#">Read more ...</a>
-      </div>
-
-      <div class="post-4 card">
-        <img class="post-image" alt="Manhatten Bridge" src="images/bridge.jpg">
-        <h2>Manhatten Bridge</h2>
-        <h5 id="author">By Richard Adams</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-           incididunt ut labore et dolore magna aliqua. Etiam tempor orci eu lobortis elementum nibh.
-           Leo integer malesuada nunc vel risus commodo
-        </p>
-        <a href="#">Read more ...</a>
-      </div>
-
-      <div class="post-5 card">
-        <img class="post-image" alt="Coffee" src="images/coffee.jpg">
-        <h2>Coffee lovers!</h2>
-        <h5 id="author">By Rachel Jackson</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-           incididunt ut labore et dolore magna aliqua. Etiam tempor orci eu lobortis elementum nibh. 
-           Leo integer malesuada nunc vel risus commodo
-        </p>
-        <a href="#">Read more ...</a>
-      </div>
-
-      <div class="post-6 card">
-        <img class="post-image" alt="Plants" src="images/plant.jpg">
-        <h2>Plants</h2>
-        <h5 id="author">By Brian Kelly</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-           ut labore et dolore magna aliqua. Etiam tempor orci eu lobortis elementum nibh. 
-           Leo integer malesuada nunc vel risus commodo
-        </p>
-        <a href="#">Read more ...</a>
-      </div>
-    </div>
-
-    <!-- Sidebar -->
-    <div class="sidebar">
-      <div class="card">
-        <h3>Recommended posts</h3>
-        <ul id="side">
-          <li>consectetur adipiscing elit, sed do eiusmod</li>
-          <li>psum dolor sit amet</li>
-          <li>labore et dolore magna aliqua</li>
-        </ul>
-        <hr>
-
-        <h3>Latest posts</h3>
-        <ul id="side">
-          <li>consectetur adipiscing elit</li>
-          <li>eiusmod tempor incididunt ut labore</li>
-          <li>laboris nisi ut aliquip ex ea commodo consequat.</li>
-          <li>Excepteur sint occaecat cupidatat non proident</li>
-          <li>consectetur adipiscing elit</li>
-          <li>tempor incididunt ut labore et dolore</li>
-        </ul>
-        <hr>
-
-        <h3>Categories</h3>
-        <ul>
-          <li>
-            <h4>Science</h4>
-          </li>
-          <li>
-            <h4>Sport</h4>
-          </li>
-          <li>
-            <h4>Spirituality</h4>
-          </li>
-          <li>
-            <h4>Health & well being</h4>
-          </li>
-          <li>
-            <h4>Entertainment</h4>
-          </li>
-          <li>
-            <h4>Technology</h4>
-          </li>
-          <li>
-            <h4>Weather</h4>
-          </li>
-          <li>
-            <h4>Kids</h4>
-          </li>
-
-        </ul>
-        <hr>
-
-        <h3>Subscribe to our newsletter</h3>
-        <div class="subscribe">
-          <form action="post">
-            <label>Name</label>
-            <input type="text" maxlength="50">
-            <label>Email Address</label>
-            <input type="email">
-            <input type="submit" value="Sign Up">
-          </form>
+      <!-- Blog post cards -->
+      <div class="post">
+        <div class="post-1 card">
+          <img
+            class="post-image"
+            alt="Japanese Umbrellas"
+            src="images/umbrellas.jpg"
+          />
+          <figcaption>Colorful Umbrellas</figcaption>
+          <h2>Japanese Umbrellas</h2>
+          <h5 id="card">By Lisa Bright</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam
+            tempor orci eu lobortis elementum nibh. Leo integer malesuada nunc
+            vel risus commodo
+          </p>
+          <a href="blog-post.html">Read more ...</a>
         </div>
 
+        <div class="post-2 card">
+          <img class="post-image" alt="Acropolis" src="images/acropolis.jpg" />
+          <figcaption>A historic icon</figcaption>
+
+          <h2>Acropolis</h2>
+          <h5 id="card">By Jay Clarck</h5>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Etiam tempor orci eu lobortis
+            elementum nibh. Leo integer malesuada nunc vel risus commodo
+          </p>
+          <a href="blog-post.html">Read more ...</a>
+        </div>
+
+        <div class="post-3 card">
+          <img class="post-image" alt="The bird!" src="images/bird.jpg" />
+          <figcaption>Master in singing!</figcaption>
+          <h2>The bird!</h2>
+          <h5 id="card">By Angela Jones</h5>
+          <p>
+            consectetur adipiscing Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Etiam tempor orci eu lobortis elementum nibh.
+            Leo integer malesuada nunc vel risus commodo
+          </p>
+          <a href="blog-post.html">Read more ...</a>
+        </div>
+
+        <div class="post-4 card">
+          <img
+            class="post-image"
+            alt="Manhattan Bridge"
+            src="images/bridge.jpg"
+          />
+          <figcaption>Sturdy structure</figcaption>
+          <h2>Manhattan Bridge</h2>
+          <h5 id="card">By Richard Adams</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam
+            tempor orci eu lobortis elementum nibh. Leo integer malesuada nunc
+            vel risus commodo
+          </p>
+          <a href="blog-post.html">Read more ...</a>
+        </div>
+
+        <div class="post-5 card">
+          <img class="post-image" alt="Coffee" src="images/coffee.jpg" />
+          <figcaption>Daily booster</figcaption>
+          <h2>Coffee lovers!</h2>
+          <h5 id="card">By Rachel Jackson</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam
+            tempor orci eu lobortis elementum nibh. Leo integer malesuada nunc
+            vel risus commodo
+          </p>
+          <a href="blog-post.html">Read more ...</a>
+        </div>
+
+        <div class="post-6 card">
+          <img class="post-image" alt="Plants" src="images/plant.jpg" />
+          <figcaption>Greenery</figcaption>
+          <h2>Plants</h2>
+          <h5 id="card">By Brian Kelly</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam
+            tempor orci eu lobortis elementum nibh. Leo integer malesuada nunc
+            vel risus commodo
+          </p>
+          <a href="blog-post.html">Read more ...</a>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="card">
+          <h3>Recommended posts</h3>
+          <ul id="side">
+            <li>consectetur adipiscing elit, sed do eiusmod</li>
+            <li>psum dolor sit amet</li>
+            <li>labore et dolore magna aliqua</li>
+          </ul>
+          <hr />
+
+          <h3>Latest posts</h3>
+          <ul id="side">
+            <li>consectetur adipiscing elit</li>
+            <li>eiusmod tempor incididunt ut labore</li>
+            <li>laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li>Excepteur sint occaecat cupidatat non proident</li>
+            <li>consectetur adipiscing elit</li>
+            <li>tempor incididunt ut labore et dolore</li>
+          </ul>
+          <hr />
+
+          <h3>Categories</h3>
+          <ul>
+            <li>
+              <h4>Science</h4>
+            </li>
+            <li>
+              <h4>Sport</h4>
+            </li>
+            <li>
+              <h4>Spirituality</h4>
+            </li>
+            <li>
+              <h4>Health & well being</h4>
+            </li>
+            <li>
+              <h4>Entertainment</h4>
+            </li>
+            <li>
+              <h4>Technology</h4>
+            </li>
+            <li>
+              <h4>Weather</h4>
+            </li>
+            <li>
+              <h4>Kids</h4>
+            </li>
+          </ul>
+          <hr />
+
+          <h3>Subscribe to our newsletter</h3>
+          <div class="subscribe">
+            <form action="post">
+              <label>Name</label>
+              <input type="text" maxlength="50" />
+              <label>Email Address</label>
+              <input type="email" />
+              <input type="submit" value="Sign Up" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="container-fluid">
+          Follow us:
+          <i class="social-icons fab fa-twitter"></i>
+          <i class="social-icons fab fa-facebook-f"></i>
+          <i class="social-icons fab fa-instagram"></i>
+          <p>© Copyright 2020 Mehdi Hajidavalloo</p>
+        </div>
+        <a href="#head">↑Top</a>
       </div>
     </div>
-
-    <!-- Footer -->
-    <div class="footer">
-      <div class="container-fluid">
-        Follow us:
-        <i class="social-icons fab fa-twitter"></i>
-        <i class="social-icons fab fa-facebook-f"></i>
-        <i class="social-icons fab fa-instagram"></i>
-        <i class="social-icons fas fa-envelope"></i>
-        <p>© Copyright 2020 Mehdi Hajidavalloo</p>
-      </div>
-      <a href="#head">↑Top</a>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>

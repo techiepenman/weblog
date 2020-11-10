@@ -32,4 +32,10 @@
     grid-area: feat;
    
   }
+
+  .sidebar {
+    display: grid;
+    grid-area: sd;
+    text-align: left;
+  }
 }

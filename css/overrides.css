@@ -1,31 +1,31 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a:link {
-  color: #454F58;
+  color: #454f58;
   text-decoration: none;
 }
 
 a:hover {
-  color: #A4E4F5 !important;
+  color: #a4e4f5 !important;
 }
 
 a:visited {
-  color: #96A0AA;
-  ;
+  color: #96a0aa;
 }
 
 h4 {
   margin-top: 0;
   margin-bottom: 0;
 }
-h5#author{
-  color: #2E3D49;
+h5#card {
+  color: #2e3d49;
+  margin: 5px 0 5px 0;
 }
 
 hr {
-  border: dotted #E5EFF5 4px;
+  border: dotted #e5eff5 4px;
   border-bottom: none;
   width: 25%;
 }
@@ -34,7 +34,6 @@ hr#post {
   border-bottom: none;
   width: 25%;
 }
-
 
 ul {
   list-style-type: none;
@@ -53,9 +52,9 @@ input {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 100%;
-  background-color: #53CBED;
+  background-color: #53cbed;
   padding: 12px 20px;
   border: none;
   color: #fff;
@@ -63,12 +62,32 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #017A9B;
+input[type="submit"]:hover {
+  background-color: #017a9b;
 }
 
 input:focus {
   outline: none !important;
-  border-color: #53CBED;
-  box-shadow: 0 0 10px #53CBED;
+  border-color: #53cbed;
+  box-shadow: 0 0 10px #53cbed;
+}
+
+img#avatar {
+  float: left;
+  border-radius: 50%;
+  width: 50px;
+  height: auto;
+  padding: 5px;
+}
+img#avatar:hover {
+  box-shadow: 0 0 10px #53cbed;
+  cursor: pointer;
+}
+
+figcaption {
+  background-color: #e5eff5;
+  padding: 2px;
+  color: #2e3d49;
+  font-style: italic;
+  font-size: 0.75em;
 }
