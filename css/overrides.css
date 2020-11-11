@@ -84,6 +84,10 @@ img#avatar:hover {
   cursor: pointer;
 }
 
+figure {
+  margin: 0;
+}
+
 figcaption {
   background-color: #e5eff5;
   padding: 2px;
